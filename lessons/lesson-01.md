@@ -1,4 +1,4 @@
-## outline
+## Outline
 
 1. Intros (Instructors & Students) - 5 min
 2. Describe Program - 10 min
@@ -7,14 +7,14 @@
 
 ---
 
-## preparation
+## Preparation
 
 1. Make an account on [https://www.openprocessing.org/](https://www.openprocessing.org/).
 
 ---
 
 
-## introduction
+## Introduction
 
 **Intros**
 
@@ -49,8 +49,8 @@ We may forget to introduce some concepts, but asking questions will help you and
 ## Processing Lesson and Tasks
 
 A. Opening Screen
-   1. Click 'Create a Sketch'.
-   2. Click play on the top black bar and you will have circles appear on your screen wherever your mouse is.
+   1. Create a 'Create a Sketch'
+   1. Click play and circles will appear on your screen wherever your mouse is.
       - Inside the code (</>), you'll find a setup function and a draw function that contains code.
       - Look up documentation by searching in taskbar tab labeled reference. For instance, if you look up `setup()`, you get [here](http://p5js.org/reference/#/p5/setup).
          - Note that there is an **example**, a **description** of the function, and **syntax** (rules to make the computer understand what you want to write. You will spend a lot of time looking at your code and
@@ -77,6 +77,19 @@ C. Task 2: Take a blank sheet of paper or graph paper and draw a robot.
 
 D. Task 3:
    1. Convert your hand-drawn robot into life using processing. Use the steps from Task 1 and documentation from the opening screen.
+   
+   Tip: to set (0,0) to the center of the display window, insert the command _translate(width/2,height/2);_ into the draw function as follows
+   ```javascript
+      function setup() {
+        createCanvas(windowWidth, windowHeight);
+        background(100);
+      }
+
+      function draw() {
+        translate(width/2,height/2);
+        ellipse(mouseX, mouseY, 20, 20);
+      }
+      ```
    2. The 2D primitives [here](http://p5js.org/reference/) will help you a lot!
 
 E. Task 4:
