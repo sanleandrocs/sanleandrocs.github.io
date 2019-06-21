@@ -5,10 +5,7 @@ dynamic by using control structures. We also examine various ideas from the code
 1. About
 2. Functions
 3. Variables
- - Robot Movement
 4. Control Structures
- - If/Else
- - For Statements
 
 ---
 
