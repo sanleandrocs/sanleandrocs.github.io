@@ -2,17 +2,19 @@
 
 In this section, we aim to learn about interactivity and how to make your robots
 dynamic by using control structures. We also examine various ideas from the code.
-1. About
+1. Definitions
 2. Functions
 3. Variables
 4. Control Structures
+  - If/Else, For Loops
 
 ---
 
-## About
+## Definitions
 
 **Variables** store your data in a easier to read and handle format.
 **Control structures** help you hand different conditions that come into play.
+**Functions** are a group of statements that perform a task.
 
 ---
 ## Functions
@@ -52,7 +54,8 @@ function setup(){
 
 ### Task 0
 ```
-Encapsulate your robot into a function, and call your function in draw!
+1. Place your code for creating your robot inside a function.
+2. Call your function in your draw() function.
 ```
 
 ---
@@ -61,7 +64,8 @@ Encapsulate your robot into a function, and call your function in draw!
 
 You have seen variables before in `windowWidth` and `windowHeight`. At some
 point, they were declared before you had even realized it. That's the benefit (maybe
-downside) of using a library! They look like this somewhere in the library code.
+downside) of using a library (a collection of code that you can access for your programs)! 
+They look like this somewhere in the library code.
 ```javascript
 var windowWidth = 1500;
 var windowHeight = 1500;
