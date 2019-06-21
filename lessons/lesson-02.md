@@ -2,11 +2,14 @@
 
 In this section, we aim to learn about interactivity and how to make your robots
 dynamic by using control structures. We also examine various ideas from the code.
+
+0. Show & Tell
 1. Definitions
 2. Functions
 3. Variables
 4. Control Structures
-  - If/Else, For Loops
+    1. If/Else Statements
+    2. For Loops
 
 ---
 
