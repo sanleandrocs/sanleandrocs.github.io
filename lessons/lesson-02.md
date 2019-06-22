@@ -35,7 +35,7 @@ function! That's why it is important to write your code inside the curly braces!
 
 ```javascript
 function setup(){
-  // Definining stuff inside here
+  // Defining stuff inside here
 }
 setup() // When you click the play button, setup is called!
 ```
