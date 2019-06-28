@@ -85,7 +85,9 @@ for(let i=0; i < 5; i++){
 ```
 
 ### Task 5
+```
 Make copies of your original robot at different locations.
+```
 
 ### Arrays (Extra Topic)
 To better understand for loops, we introduce the concept of arrays. An array is a
