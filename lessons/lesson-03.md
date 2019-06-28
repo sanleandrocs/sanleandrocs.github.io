@@ -13,9 +13,9 @@ various operators. An if/else statement can be constructed as follows. Only one
 of the options will go through.
 ```javascript
 if( 5 == 5 ){
-  print("It is true.")
+  print("It is true.");
 }else{
-  print("It is false.")
+  print("It is false.");
 }
 ```
 Javascript uses a boolean type that has two values: `true` and `false`. It's a
@@ -34,11 +34,11 @@ allows for more options. Again, only one option will happen.
 ```javascript
 let myAge = 100;
 if (myAge < 21){
-  print("I am young!")
+  print("I am young!");
 }else if(myAge < 120){
-  print("I'm not sure...")
+  print("I'm not sure...");
 }else{
-  print("I may be the oldest person alive!")
+  print("I may be the oldest person alive!");
 }
 ```
 
