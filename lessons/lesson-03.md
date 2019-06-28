@@ -1,7 +1,7 @@
 # More Control & Multiple Actors (Part 2)
 1. Control Structures 
     1. If/Else Statements
-    2. For Loops
+    2. For Loops + Arrays
 2. Multiple Actors
 
 ## Control Structures
@@ -67,7 +67,7 @@ if (mouseIsPressed){
 On a mouse click, make your robot change colors!
 ```
 
-### For Statements
+### For Loops
 For statements allow you to do multiple things. We must follow the exact syntax.
 ```javascript
 // let i=0 creates the variable that won't be used after the for statement
@@ -84,6 +84,34 @@ for(let i=0; i < 5; i++){
 // 4
 ```
 
+### Arrays
+To better understand for loops, we introduce the concept of arrays. An array is a 
+list, which can store multiple values.
+
+Javascript arrays have positional index that starts at 0, which allows you to access 
+elements.
+
+```javascript
+var two_elems = [67,44];
+print(two_elems[0]); // Prints 67 at index 0
+print(two_elems[1]); // Prints 67 at index 1
+```
+
+
+```javascript
+var number_list = []; // You can start empty and add elements.
+
+number_list.push(1);
+number_list.push(2); 
+number_list.push(3); 
+
+// Now, number_list looks like [1,2,3]
+for (let i = 0; i < number_list.length; i++){
+    let elem = number_list[i];
+    print(elem);
+}
+```
+
 One thing to notice, however, is that using `translate` modifies the coordinate
 system on your screen. So, if you add a new shape, it won't be where you expect!
 It will have moved along with the translated frame. So, we will not use this.
@@ -91,7 +119,7 @@ Rather, because you have converted all your coordinates to variables, we can
 modify the robot position directly.
 
 ### Task 5
-Make multiple robots.
+Make copies of your original robot at different locations.
 
 ## Multiple Actors
 Now, you have the basics of how programs works. The next step is to build more
@@ -99,6 +127,5 @@ familiarity. So, make more robots!
 
 ### Task 6
 ```
-After modifying your original robot. Make another robot appear on the screen that
-interacts with your original robot.
+Make another robot appear on the screen that interacts with your original robot.
 ```
