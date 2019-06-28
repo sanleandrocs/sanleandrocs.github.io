@@ -84,7 +84,10 @@ for(let i=0; i < 5; i++){
 // 4
 ```
 
-### Arrays
+### Task 5
+Make copies of your original robot at different locations.
+
+### Arrays (Extra Topic)
 To better understand for loops, we introduce the concept of arrays. An array is a 
 list, which can store multiple values.
 
@@ -118,14 +121,12 @@ It will have moved along with the translated frame. So, we will not use this.
 Rather, because you have converted all your coordinates to variables, we can
 modify the robot position directly.
 
-### Task 5
-Make copies of your original robot at different locations.
 
-## Multiple Actors
+## Multiple Actors (Extra Topic)
 Now, you have the basics of how programs works. The next step is to build more
-familiarity. So, make more robots!
+familiarity. So, make more different robots!
 
 ### Task 6
 ```
-Make another robot appear on the screen that interacts with your original robot.
+Make a different robot appear on the screen that interacts with your original robot.
 ```
