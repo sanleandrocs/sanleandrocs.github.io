@@ -1,5 +1,5 @@
 # More Control & Multiple Actors (Part 2)
-1. Control Structures 
+1. Control Structures
     1. If/Else Statements
     2. For Loops + Arrays
 2. Multiple Actors
@@ -11,8 +11,8 @@ Notice that your robot leaves your screen forever. Very sad, I know...
 Let's make it rotate, so that when it hits the edge of the screen it appears at
 the other side of the screen again.
 
-To do so, we use if/else statements. An if/else statement can be constructed as follows. 
-**Only one of the blocks will go through.**
+To do so, we use if/else statements. An if/else statement can be constructed as follows.
+**Only one block of code will run when the if/else statement is evaluated.**
 ```javascript
 if( 5 == 5 ){
   print("It is true.");  // Either this happens
@@ -23,9 +23,9 @@ if( 5 == 5 ){
 Javascript uses a boolean type that has two values: `true` and `false`. It's a
 way to denote two different options. From above, you can compare various operators and
 produce the desired equality statement inside your if condition. Some examples of operators
-include: 
+include:
 ```javascript
-1 == 1  // true 
+1 == 1  // true
 1 != 1  // false
 1 > 1   // false
 1 < 1   // false
@@ -88,10 +88,10 @@ for(let i=0; i < 5; i++){
 Make copies of your original robot at different locations.
 
 ### Arrays (Extra Topic)
-To better understand for loops, we introduce the concept of arrays. An array is a 
+To better understand for loops, we introduce the concept of arrays. An array is a
 list, which can store multiple values.
 
-Javascript arrays have positional index that starts at 0, which allows you to access 
+Javascript arrays have positional index that starts at 0, which allows you to access
 elements.
 
 ```javascript
@@ -105,8 +105,8 @@ print(two_elems[1]); // Prints 67 at index 1
 var number_list = []; // You can start empty and add elements.
 
 number_list.push(1);
-number_list.push(2); 
-number_list.push(3); 
+number_list.push(2);
+number_list.push(3);
 
 // Now, number_list looks like [1,2,3]
 for (let i = 0; i < number_list.length; i++){
