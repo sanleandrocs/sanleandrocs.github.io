@@ -127,7 +127,7 @@ do this by taking advantage of the fact that draw runs X number of times per sec
 var position = 0;
 function draw(){
    translate(position, 0); // Moves the robot in the X direction.
-   position = postion + 1; // You can re-assign variables!
+   position = position + 1; // You can re-assign variables!
    // print(position) will tell you where the position is.
 }
 ```
