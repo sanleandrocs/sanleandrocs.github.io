@@ -35,8 +35,7 @@ similar in that a function is declared with the keyword `function
 name_of_function (var1, var2, ...) {}`.
 
 ```javascript
-function greater_than_5
-(x)
+function greater_than_5(x)
 {
   if (x > 5){
     print(x + " is greater than 5!")
@@ -119,7 +118,7 @@ Make a rock appear from a random location in the sky.
 #### Task 3
 ```
 Display a score somewhere on your screen with the text function.
-If the rock passes the ground, increase the score.
+If the rock touches the ground, increase the score.
 ```
 
 ### End Game
