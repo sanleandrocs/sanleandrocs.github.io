@@ -71,7 +71,7 @@ When a variable is declared inside a function, it only lives until the function
 ends. So, in p5js, you will probably get an error like `Uncaught ReferenceError:
 x is not defined`.
 ```javascript
-def print_5(){
+function print_5(){
    let x = 5;
    print(x);
 }
@@ -83,7 +83,7 @@ Alternatively, when you declare an element in the code outside of your
 functions, you can use them inside of your function!
 ```javascript
 var x = 5;
-def print_5(){
+function print_5(){
    print(x); // This prints 5 and you can use x's scope from outside the function!
 }
 
