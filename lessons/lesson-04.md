@@ -115,14 +115,14 @@ let x = random(0, 100); // x is a random number between 0 and 99 (inclusive).
 Make a rock appear from a random location in the sky.
 ```
 
-### Score
+### Score (Extra)
 #### Task 3
 ```
 Display a score somewhere on your screen with the text function.
 If the rock touches the ground, increase the score.
 ```
 
-### End Game
+### End Game (Extra)
 ```
 End the game if your actor touches the rock.
 ```
